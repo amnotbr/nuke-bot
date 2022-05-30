@@ -97,14 +97,6 @@ async def on_message(message): # actualy  part where everything is
 
     if message.author == client.user:
         return
-
-'''
-@client.command()
-async def play(ctx, url : str):
-    voiceChannel = discord.utils.get(ctx.guild.voice_channels, name="asdf")
-    voice = discord.utils.get(client.voice_clients, guild=ctx.guild)
-
-    await voiceChannel.connect()
-'''
+    
 #This is some useless code
 client.run('TOKEN GOES HERE')
